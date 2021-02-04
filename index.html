@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>html project</title>
+<style>
+h1{
+   background-color:blue;
+   text-align:center;
+   padding:35px;
+   color:orange;
+   border-style:dotted;
+    border-style:solid;
+	border-color:green;
+	font-style:italic;
+   }
+   #row{
+	position:sticky;
+	padding:8px;
+	}
+   .zohoo{
+   background-color:rgb(243,100,100);
+   text-align:left;
+   padding:6px 24px;
+     width:99%;
+     height:20px;
+     overflow:hidden;
+	}
+	.zohoo a{
+	float:top;
+	color:white;
+	text-align:center;
+	padding:6px 24px;
+	text-decoration:none;
+	font-size:17px;
+	}
+	table,th,td{
+	border:1px solid black;
+	border-collapse:collapse;
+	}
+	th,td{
+	padding:5px;
+	text-align:center;
+	}
+	tr:nth-child(even){
+	background-color:blue;
+	}
+	.tableborder{
+	border:1px solid black;
+	text-align:center;
+	margin:0px 360px 0px 360px;
+	background-color:rgb(241,207,71);
+	}
+	.list{
+	margin-left:auto;
+	margin-right:auto;
+	}
+	.fa{
+	padding:20px;
+	font_size:30px;
+	width:50px;
+	text-align:center;
+	text-decoration:none;
+	}
+	.fa-facebook{
+	background:blue;
+	color:red;
+	}
+	.fa-youtube{
+	background-color:green;
+	color:orange;
+	}
+	
+   </style>
+</head>
+<body>
+<h1>Html Task</h1>
+<div class="zohoo" style="display:inline-block;"id="row">
+<a href="#tf">text format</a>
+<a href="#hq">html quotations</a>
+<a href="#hl">html links</a>
+<a href="#hm">html images</a>
+<a href="#ht">html table</a>
+<a href="#hlist">html list</a>
+<a href="#iframe">iframe</a>
+<a href="#hform">html forms</a>
+<a href="#hmedia">html media</a>
+</div>
+<h2 id="tf">text format</h2>
+<div class="formmat" style="background-color:orange;width:50%">
+<pre>
+<i>Italic textt</i>
+<b>bold text</b>
+<del>delete text</del>
+<em>emphasized text</em>
+<ins>insert text</ins>
+<sub>subscript</sub>
+<sup>superscript</sup>
+<mark>mark test</mark>
+</pre>
+</div>
+<a href="#back">back to top</a>
+<h2 id="hq">html quotations</h2>
+<div style="background-color:orange;font-family:'times new roman',times,serif">
+<p>DHONI untold story</P>
+<div>dhoni won all icc cups<abbr title="mahindra singh dhoni">msd </abbr> is an coolest man .</div>
+<p>
+<b>naveen going to home</b><br>
+<br>
+<q>vimal go to temple</q>
+</P>
+<h3><b>address:</b></P>
+<address>
+the page devloped by
+<a href="mailto:naveenrp93@gmail.com">naveen</a>
+<br>
+<i>mohanur<i>
+<br>
+<i>namakkal dt</i>
+</address
+<br>
+<br>
+<u>vivek is went to cbe</u>
+<h2 id="hl">html links</h2>
+<div class="link" style="background-color:green;font-family:'times new roman',times,serif;width=20%"></div>
+<bdo dir="rtl">this line will be write from right to left</bdo>
+<h3>link button:</h3>
+<a href="https://www.instagram.com/" target="_blank">instagram</a><br>
+<a href>back to top<a>
+<h2 id="hm">html images</h2>
+<img src="download.jpg" alt="green tree" "width=50%">
+<h2 id="ht">html table</h2>
+<table class="center">
+<caption>timetable</caption>
+<tbody>
+<tr>
+<th rowspan="2">time</th>
+<th colspan="5">days</th>
+</tr>
+<tr>
+<th>8.00-9.00</th>
+<th>10.00-11.00</th>
+<th>12.00-1.00</th>
+<th>2.00-3.00</th>
+<th>3.00-4.00</th>
+</tr>
+<tr>
+<th>monday</th>
+<td>tamil</td>
+<td>english</td>
+<td>maths</td>
+<td>science</td>
+<td>social</td>
+</tr>
+<tr>
+<th>tuesday</th>
+<td>tamil</td>
+<td>english</td>
+<td>maths</td>
+<td>science</td>
+<td>social</td>
+</tr>
+<tr>
+<th>wednesday</th>
+<td>tamil</td>
+<td>english</td>
+<td>maths</td>
+<td>science</td>
+<td>social</td>
+</tr>
+<tr>
+<th>thursday</th>
+<td>tamil</td>
+<td>english</td>
+<td>maths</td>
+<td>science</td>
+<td>social</td>
+</tr>
+<tr>
+<th>friday</th>
+<td>tamil</td>
+<td>english</td>
+<td>maths</td>
+<td>science</td>
+<td>social</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hlist">html list</h2>
+<div class="list" width="50%" background-color:orange;>
+<h3>unorder list</h3>
+<ul>
+<li>man</li>
+<li>tree</li>
+<li>house</li>
+</ul>
+</div>
+<h3>order list</h3>
+<ol>
+<li>boat</li>
+<li>car</li>
+<li>bus</li>
+</ol>
+
+<h2 id="iframe">iframe</h2>
+<h2 id="hform">html forms</h2>
+<form method="post">
+firstname:<input type="text"  name="fname"><br><br>
+lastname :<input type="text"  name="lname"><br><br>
+password :<input type="password" name="pwd"><br><br>
+<label for="gender">gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">male</label>
+<input type="radio" id="male" name="gender" value="male">
+<label for="female">female:</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="other">other:</label>
+<input type="radio" id="female" name="gender" value="others"><br><br>
+<input type="submit">
+</form>
+<h2 id="hmedia">html media</h2>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fRD_3vJagxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="footer">
+<p>
+<b>keep connected<b>
+</P>
+<a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"
+</a>
+<a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+</div>
+</body>
+</html>
